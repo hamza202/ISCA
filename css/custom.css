@@ -74,7 +74,7 @@
     left: 15px;
 }
 .bg2{
-    background-color: #f8f8f7;
+    background-color: #fff;
 }
 .prd-price > *{
     float: none;
@@ -82,6 +82,7 @@
 
 .prd .prd-inside{
     background-color: #fff;
+    border: 1px solid #eaeaea;
 }
 h2.prd-title, .prd-tag a{
     text-transform: none;
@@ -113,6 +114,11 @@ h2.prd-title, .prd-tag a{
     z-index: 10;
     font-size: 17px;
     position: relative;
+}
+.collection-carousel-2-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 /*btn-4 Start*/
 .btn-4{
