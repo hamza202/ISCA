@@ -153,10 +153,19 @@ h2.prd-title, .prd-tag a{
     font-size: 20px;
     margin-top: 10px;
 }
+.open-san{
+    font-family: "Open Sans", sans-serif !important;
+}
+.mobilemenu ul.nav li a.open-san{
+    font-weight: 400;
+}
 @media (max-width: 575.98px) {
     .hdr-content > .container{
         position: relative;
         padding-top: 30px;
+    }
+    .bnslider-with-tabs .slick-dots{
+        overflow-x: scroll;
     }
     .hdr-mobile-right{
         position: absolute;
