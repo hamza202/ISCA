@@ -38,12 +38,13 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: rgba(170,0,13,0.50);
+    background-color: rgba(170,0,13,0.70);
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
+
 .learn-container{
     text-align: center;
 }
@@ -153,6 +154,9 @@ h2.prd-title, .prd-tag a{
 .category-list2 li a:hover{
     color: #AA000D;
 }
+.category-list2 li.active a{
+    color: #AA000D;
+}
 .category-list2 li a:after{
     content: '';
     position: absolute;
@@ -164,6 +168,9 @@ h2.prd-title, .prd-tag a{
     transition: all ease-in-out 0.5s;
 }
 .category-list2 li a:hover::after{
+    width: 100%;
+}
+.category-list2 li.active a::after{
     width: 100%;
 }
 .category-list2 a i{
