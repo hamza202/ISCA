@@ -399,7 +399,6 @@
 			this.removePreloader(1000);
 			this.checkDevice();
 			this.hideBeforeLoad('.mobilemenu-content', 1000);
-			this.hideEmptyFilters('.js-filter-col', '.aside', '.sidebar-block_content', '.filter-button', '.filter-row');
 			this.showAboveFooter('.show_above_footer', '.page-content');
 			this.showAboveContent('.show_under_header', '.page-content');
 			this.productTab('.product-tab');
