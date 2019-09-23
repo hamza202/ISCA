@@ -741,7 +741,8 @@ body .aside > .shopify-section > .holder > .container {
 
     .aside--right {
         -ms-flex-order: 2;
-        order: 2
+        order: 2;
+        margin-top: -56px;
     }
 }
 
