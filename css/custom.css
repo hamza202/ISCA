@@ -501,8 +501,33 @@ label.menu-open-button:before,label.menu-open-button:after{
     display: block;
     color: #AA000D;
 }
+.download-section h2{
+    color: #AA000D;
+    font-size: 40px;
+    font-weight: 700;}
+.download-section p{
+    color: #707070;
+    font-size: 20px;
+}
+.download-section a img{
+    transition: all ease-in-out 0.3s;
+}
+.download-section a:hover img{
+    opacity: 0.8;
+}
 a.tell-a{
     font-size: 13px !important;
+}
+.prd-block_options .option-label, .prd-block_qty .option-label, .product-options .option-label{
+    max-width: 32px;
+}
+.prd-block_price--actual{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 16px;
+}
+.overflow-visible{
+    overflow: visible; !important;
 }
 @media (max-width: 575.98px) {
     .hdr-content > .container{
