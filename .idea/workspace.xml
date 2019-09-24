@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/store-details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="398" column="118" selection-start-line="398" selection-start-column="118" selection-end-line="398" selection-end-column="118" />
+            <state relative-caret-position="228">
+              <caret line="324" column="44" selection-start-line="324" selection-start-column="40" selection-end-line="324" selection-end-column="44" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -427,12 +427,12 @@
       <workItem from="1569011263431" duration="7253000" />
       <workItem from="1569055528567" duration="4643000" />
       <workItem from="1569104423540" duration="11593000" />
-      <workItem from="1569238942983" duration="12535000" />
+      <workItem from="1569238942983" duration="12819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54597000" />
+    <option name="totallyTimeSpent" value="54881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -823,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/store-details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="398" column="118" selection-start-line="398" selection-start-column="118" selection-end-line="398" selection-end-column="118" />
+        <state relative-caret-position="228">
+          <caret line="324" column="44" selection-start-line="324" selection-start-column="40" selection-end-line="324" selection-end-column="44" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" />
