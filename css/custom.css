@@ -276,7 +276,7 @@ a.steps-block{
 /*social share button*/
 .menu-item,
 .menu-open-button {
-    background: #EEEEEE;
+    background: #fff;
     border-radius: 100%;
     width: 40px;
     height: 40px;
@@ -356,7 +356,6 @@ a.steps-block{
     -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
     transform: scale(1.1, 1.1) translate3d(0, 0, 0);
     cursor: pointer;
-    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
 }
 
 .menu-open-button:hover {
@@ -530,6 +529,35 @@ a.tell-a{
 }
 .overflow-visible{
     overflow: visible; !important;
+}
+.related-card{
+    border: 1px solid #eaeaea;
+}
+.related-card h4{
+    text-transform: none;
+}
+.related-card a{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 160px;
+}
+.related-card img.play-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) ;
+    z-index: 2;
+}
+.related-card  img.video-img{
+    height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+    transform: scale(1 , 1);
+}
+.related-card a:hover img.video-img{
+    transform: scale(1.2 , 1.2);
 }
 @media (max-width: 575.98px) {
     .hdr-content > .container{
