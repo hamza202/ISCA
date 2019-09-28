@@ -533,9 +533,17 @@ a.tell-a{
 .related-card{
     border: 1px solid #eaeaea;
 }
+.parsley-errors-list{
+    list-style: none;
+    padding-left: 0;
+}
+.parsley-errors-list li{
+    color: red;
+}
 .related-card h4{
     text-transform: none;
 }
+.form-wrapper > form > :not(:first-child){}
 .related-card a{
     position: relative;
     width: 100%;

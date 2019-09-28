@@ -3710,10 +3710,6 @@ form .errors + .row {
     margin-bottom: 0
 }
 
-.form-wrapper > form > :not(:first-child) {
-    margin-top: 18px
-}
-
 .form-inline--flex {
     display: -ms-flexbox;
     display: flex;
