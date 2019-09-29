@@ -540,6 +540,21 @@ a.tell-a{
 .parsley-errors-list li{
     color: red;
 }
+.cart-table-prd-image img{
+    height: auto;
+    border: 1px solid #e0e0e0;
+}
+.prd-block_price--actual input:disabled {
+    background-color: transparent;
+}
+.prd-block_price{
+    padding-top: 4px;
+}
+.value-input{
+    width: 75px;
+    border: 0;
+    font-weight: 600;
+}
 .related-card h4{
     text-transform: none;
 }
@@ -566,6 +581,14 @@ a.tell-a{
 }
 .related-card a:hover img.video-img{
     transform: scale(1.2 , 1.2);
+}
+.total-price span{
+    color: #AA000D;
+}
+.cart-table-prd-action .js-label-wishlist.active:before{
+    color: #f7b001;
+    font-size: 20px;
+    line-height: 12px;
 }
 @media (max-width: 575.98px) {
     .hdr-content > .container{

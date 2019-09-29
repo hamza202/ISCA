@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d6821f-3d1e-46fd-9c62-27ead760df82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/pikaday.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/company.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/parsley.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/pikaday.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kitchen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-light.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/store-details.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +74,7 @@
       <workItem from="1569238942983" duration="15692000" />
       <workItem from="1569464920035" duration="6320000" />
       <workItem from="1569631997079" duration="3247000" />
-      <workItem from="1569696522952" duration="9948000" />
+      <workItem from="1569696522952" duration="17196000" />
     </task>
     <servers />
   </component>
