@@ -18682,7 +18682,7 @@ body.touch .main-image--slide .prd-block_main-image-next.slick-next:not(.slick-d
 
     .prd-block_actions .prd-block_price {
         margin-right: auto;
-        min-width: 125px;
+        min-width: 117px;
         padding-right: 15px;
         text-align: center
     }
@@ -18800,7 +18800,6 @@ body.touch .main-image--slide .prd-block_main-image-next.slick-next:not(.slick-d
 }
 
 .btn.btn--add-to-cart:only-child {
-    width: 100%
 }
 
 .sidebar-product > * {

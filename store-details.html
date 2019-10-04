@@ -413,11 +413,12 @@
                                             <input type="button" value="+" class="increase"></fieldset>
                                     </div>
                                 </div>
-                                <div class="prd-block_price mt-0"><span class="prd-block_price--actual">$
-                                <input class="value-input" type="text" disabled value="17.50"></span></div>
+                                <div class="prd-block_price"><span class="prd-block_price--actual">$17.50</span> <span
+                                        class="prd-block_price--old">$22.00</span></div>
                             </div>
                             <div class="prd-block_actions topline overflow-visible">
-
+                                <div class="prd-block_price mt-0"><span class="prd-block_price--actual">$
+                                <input class="value-input" type="text" disabled value="17.50"></span></div>
                                 <div class="btn-wrap">
                                     <button type="submit" class="btn btn--add-to-cart btn-4"><i
                                             class="icon icon-handbag"></i><span>Add to cart</span></button>
@@ -808,31 +809,29 @@
 <script src="js/plugins.js"></script>
 <script src="js/app.js"></script>
 <script>
-    let pice_price = 75.25;
-    $('.qty-input').on('change paste keyup', function () {
+    $(document).ready(function () {
+
+        let pice_price = $('.value-input').val();
         let val = $('.qty-input').val();
-        // let pice_price = 75;
         let final_val = val * pice_price;
         $('.prd-block_price--actual input').val(final_val);
-        console.log(val)
-
+        $('.qty-input').on('change paste keyup', function () {
+            let val = $('.qty-input').val();
+            let final_val = val * pice_price;
+            $('.prd-block_price--actual input').val(final_val);
+        });
+        $('.decrease').on('click', function () {
+            let val = $('.qty-input').val() - 1;
+            let final_val = val * pice_price;
+            $('.prd-block_price--actual input').val(final_val);
+        });
+        $('.increase').on('click', function () {
+            let val = $('.qty-input').val();
+            let val1 = parseInt(val) + 1;
+            let final_val = val1 * pice_price;
+            $('.prd-block_price--actual input').val(final_val);
+        })
     });
-    $('.decrease').on('click', function () {
-        let val = $('.qty-input').val() - 1;
-        // let pice_price = 75;
-        let final_val = val * pice_price;
-        $('.prd-block_price--actual input').val(final_val);
-        console.log(val)
-    });
-    $('.increase').on('click', function () {
-        let val = $('.qty-input').val();
-        let val1 = parseInt(val) + 1;
-        // let pice_price = 75;
-        let final_val = val1 * pice_price;
-        $('.prd-block_price--actual input').val(final_val);
-        console.log(val1)
-    })
-
 
 </script>
 </body>
