@@ -590,6 +590,16 @@ a.tell-a{
     font-size: 20px;
     line-height: 12px;
 }
+.col-divider{
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.table-order-history .btn{
+    background-color: #707070;
+}
+.table-order-history .btn:hover{
+    background-color: #f7b001;
+}
 @media (max-width: 575.98px) {
     .hdr-content > .container{
         position: relative;
