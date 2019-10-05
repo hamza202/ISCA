@@ -8,13 +8,10 @@
                     SCHOOL <br>OF CULINARY EDUCATION">
     <meta name="author" content="INTERNATIONAL
                     SCHOOL OF CULINARY EDUCATION">
-    <title>ISCA || My order</title>
+    <title>ISCA || Order details</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/faveicon.png">
-
     <link href="js/plugins.css" rel="stylesheet">
-    <link href="css/pikaday.css" rel="stylesheet">
     <link href="css/style-light.css" rel="stylesheet">
-
     <!--icon font-->
     <link href="fonts/icomoon/icomoon.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
@@ -319,101 +316,39 @@
         </div>
     </div>
 </header>
-
 <div class="page-content">
     <div class="holder mt-0">
         <div class="container">
-            <ul class="breadcrumbs">
+            <ul class="breadcrumbs pb-0">
                 <li><a href="index.html">Home</a></li>
-                <li><span>My account</span></li>
+                <li><a href="my-order.html">Shopping Cart</a></li>
+                <li><span>Order Address</span></li>
             </ul>
         </div>
     </div>
     <div class="holder mt-0">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 aside aside--left">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item ">Account Details</a>
-                        <a href="#" class="list-group-item active">My Order</a>
-                        <a href="#" class="list-group-item ">Wishlist</a>
-                        <a href="#" class="list-group-item ">Change Password</a>
-                    </div>
+            <!-- Page Title -->
+            <div class="page-title page-title--blog">
+                <div class="title text-center">
+                    <h1 class="mb-2 mt-2">Order Address</h1>
                 </div>
-                <div class="col-md-9 aside">
-                    <h2>MY ORDERS</h2>
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-striped table-order-history">
-                            <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Order Number</th>
-                                <th scope="col">Order Date</th>
-                                <th scope="col">Status</th>
-                                <th scope="col">Total Price</th>
-                                <th scope="col"></th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td><b>175525</b> </td>
-                                <td>01.02.2017</td>
-                                <td>Shipped</td>
-                                <td><span class="color">$1252.00</span></td>
-                                <td><a href="#" class="btn">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td><b>189067</b> </td>
-                                <td>12.02.2017</td>
-                                <td>Shipped</td>
-                                <td><span class="color">$367.00</span></td>
-                                <td><a href="#" class="btn">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td><b>186543</b> </td>
-                                <td>03.04.2017</td>
-                                <td>Shipped</td>
-                                <td><span class="color">$587.00</span></td>
-                                <td><a href="#" class="btn">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td><b>209876</b> </td>
-                                <td>05.06.2017</td>
-                                <td>Shipped</td>
-                                <td><span class="color">$3654.00</span></td>
-                                <td><a href="#" class="btn">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td><b>215879</b> </td>
-                                <td>06.07.2017</td>
-                                <td>Shipped</td>
-                                <td><span class="color">$258.00</span></td>
-                                <td><a href="#" class="btn">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td><b>229876</b> </td>
-                                <td>12.08.2017</td>
-                                <td>Shipped</td>
-                                <td><span class="color">$314.00</span></td>
-                                <td><a href="#" class="btn">View Details</a></td>
-                            </tr>
-                            <tr>
-                                <td>7</td>
-                                <td><b>268745</b> </td>
-                                <td>01.09.2017</td>
-                                <td>Shipped</td>
-                                <td><span class="color">$522.00</span></td>
-                                <td><a href="#" class="btn">View Details</a></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+            </div>
+            <!-- /Page Title -->
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form action="#" data-parsley-validate="" data-parsley-trigger="change">
+                        <div class="form-group">
+                            <input type="text" class="form-control" data-parsley-required-message="You must enter your address"
+                                   required="" placeholder="ENTSER ADDRESS DATELS">
+                        </div>
+                        <div id="map1"></div>
+                        <input type="text" id="lng" hidden>
+                        <input type="text" id="lat" hidden>
+                        <button type="submit" class="btn btn-4 mt-2">Order</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -550,7 +485,33 @@
 <script src="js/plugins.js"></script>
 <script src="js/app.js"></script>
 <script src="js/parsley.min.js"></script>
+<script>
+    function myMap() {
+        var mapProp = {
+            center: new google.maps.LatLng(24.93781342645239, 46.72206290976101),
+            zoom: 7,
+        };
+        var map = new google.maps.Map(document.getElementById("map1"), mapProp);
 
+        google.maps.event.addListener(map, 'click', function (event) {
+            var lang = event.latLng.lng();
+            var lat = event.latLng.lat();
+            document.getElementById("lng").value = lang;
+            document.getElementById("lat").value = lat;
+        });
+        var marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(24.93781342645239, 46.72206290976101),
+        });
+        google.maps.event.addListener(map, 'click', function (event) {
+            marker.setPosition(event.latLng);
+        });
+
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiejll8JlYYrxhGnLyPXAc0NYc9oOJRio&callback=myMap">
+</script>
 </body>
 
 

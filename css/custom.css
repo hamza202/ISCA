@@ -383,14 +383,20 @@ a.steps-block{
     -webkit-transform: translate3d(50px, 0, 0);
     transform:translate3d(50px, 0, 0);
 }
-
+.prd-block_actions .menu-open:checked ~ .menu-item:nth-child(3){
+    -webkit-transform: translate3d(0, -50px, 0);
+    transform:translate3d(0, -50px, 0);
+}
 .menu-open:checked ~ .menu-item:nth-child(4) {
     transition-duration: 280ms;
     -webkit-transition-duration: 280ms;
     -webkit-transform: translate3d(100px, 0, 0);
     transform:translate3d(100px, 0, 0);
 }
-
+.prd-block_actions .menu-open:checked ~ .menu-item:nth-child(4){
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform:translate3d(0, -100px, 0);
+}
 .menu-open:checked ~ .menu-item:nth-child(5) {
     transition-duration: 380ms;
     -webkit-transition-duration: 380ms;
@@ -404,19 +410,29 @@ a.steps-block{
     line-height: 43px;
     transition: ease-in-out all 0.4s;
 }
-
+.order-map{
+    border:1px solid #f7f7f7;
+}
 .facebook_share_btn:hover {
     color: #3b5998;
     text-shadow: none;
     text-decoration: none;
     background: #eee;
 }
-
+#map{
+    width: 100%;
+    height: 350px;
+}
 .twitter_share_btn {
     background-color: #00aced;
     font-size: 19px;
     line-height: 43px;
     transition: ease-in-out all 0.4s;
+}
+@media screen and (min-width: 992px){
+    .order-table .cart-table-prd-qty {
+        width: auto;
+    }
 }
 
 .twitter_share_btn:hover {
@@ -597,8 +613,15 @@ a.tell-a{
 .table-order-history .btn{
     background-color: #707070;
 }
+.btn:hover{
+    cursor: pointer;
+}
 .table-order-history .btn:hover{
     background-color: #f7b001;
+}
+#map1{
+    width: 100%;
+    height: 400px;
 }
 @media (max-width: 575.98px) {
     .hdr-content > .container{
