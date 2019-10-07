@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57d6821f-3d1e-46fd-9c62-27ead760df82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forgot-pass-new-pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forgot-pass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/chek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/exam-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/forgot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-exam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subscription-quota.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/subscription.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
     </list>
@@ -98,7 +87,7 @@
       <workItem from="1570212653442" duration="7177000" />
       <workItem from="1570274835208" duration="4403000" />
       <workItem from="1570300656253" duration="6335000" />
-      <workItem from="1570376592011" duration="14320000" />
+      <workItem from="1570376592011" duration="14654000" />
     </task>
     <servers />
   </component>

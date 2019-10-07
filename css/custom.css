@@ -778,6 +778,9 @@ b.my-price {
 b.my-price.big-price{
     font-size: 30px;
 }
+input[type=checkbox] + label:before, input[type=radio] + label:before{
+    border-color: #aa000d;
+}
 .w-auto{
     width: auto;
 }
