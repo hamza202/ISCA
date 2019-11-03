@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="254" height="60" viewBox="0 0 254 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        fill: #707070;
+        font-size: 16px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-3 {
+        fill: #aa000d;
+        font-size: 19px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 322 500">
+      <image width="322" height="500" xlink:href="Group%2032-image.png"/>
+    </pattern>
+  </defs>
+  <g id="Group_32" data-name="Group 32" transform="translate(-179 -87)">
+    <rect id="logo1" class="cls-1" width="39" height="60" transform="translate(179 87)"/>
+    <text id="INTERNATIONAL_SCHOOL_OF" data-name="INTERNATIONAL SCHOOL OF" class="cls-2" transform="translate(225 118)"><tspan x="0" y="0">INTERNATIONAL SCHOOL OF</tspan></text>
+    <text id="CULINARY_EDUCATION" data-name="CULINARY EDUCATION" class="cls-3" transform="translate(224 140)"><tspan x="0" y="0">CULINARY EDUCATION</tspan></text>
+  </g>
+</svg>
