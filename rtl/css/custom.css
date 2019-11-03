@@ -805,6 +805,15 @@ input[type=checkbox] + label:before, input[type=radio] + label:before{
     background: url(../images/cross.png) no-repeat;
     background-size: 100%;
 }
+.logo-holder img, .logo-holder-s img{
+    max-width: 245px;
+}
+.logo-holder-s img {
+    max-height: 52px;
+}
+.cart-table-prd-name h4{
+    margin-bottom: 0;
+}
 @media (max-width: 575.98px) {
     .hdr-content > .container {
         position: relative;
@@ -859,5 +868,13 @@ input[type=checkbox] + label:before, input[type=radio] + label:before{
 @media screen and (min-width: 992px) {
     .exam-table .cart-table-prd-price {
         width: 17%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hdr-mobile-style2 .hdr-mobile .logo-holder img {
+        max-width: 188px;
+    }
+    .logo-holder{
+        margin-right: auto;
     }
 }

@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,500,700,800&display=swap');
+
 body > * {
   direction: rtl;
-  text-align: right; }
-
+  text-align: right;
+    font-family: 'Tajawal', sans-serif !important;
+    font-size: 15px;
+}
+h1 ,h2 ,h3,h4,h5,h6,div,p,
+.mmenu:not(.mmenu--vertical) > li > a,
+.bnslider-with-tabs .slick-dots li span,.btn-decor{
+    font-family: 'Tajawal', sans-serif !important;
+}
+.bnslider-with-tabs .slick-dots li span{
+    font-size: 16px;
+}
+.mmenu:not(.mmenu--vertical) > li > a,.prd-tag{
+    font-size: 14px;
+}
+.download-section p{
+    font-size: 17px;
+}
+.btn-decor{
+    font-size: 14px;
+}
+.hdr .dropdn-link, .hdr .header-inline-link a, .hdr-wrap .dropdn-link, .hdr-wrap .header-inline-link a{
+    font-size: 12px;
+}
 /*# bootstrap grid rtl */
 .pull-0 {
   right: auto;
@@ -652,12 +676,7 @@ body > * {
   .aside {
     -ms-flex-order: 1;
         order: 1; }
-  .aside--left {
-    -ms-flex-order: 2;
-        order: 2; }
-  .aside--right {
-    -ms-flex-order: 0;
-        order: 0; } }
+}
 
 @media (min-width: 768px) {
   .chess-left-bg {
@@ -2319,7 +2338,6 @@ body.boxed .page-footer.global_width .footer-bottom:not(:first-child) .row:befor
 
 /* price block rtl */
 .prd-price > * {
-  float: right;
   margin-right: 0;
   margin-left: 7px; }
 
@@ -2509,9 +2527,7 @@ body.boxed .page-footer.global_width .footer-bottom:not(:first-child) .row:befor
   margin-right: 10px;
   margin-left: 0; }
 
-.post-prw-big .post-bot > *:last-child, .post-full .post-bot > *:last-child {
-  margin-left: 0;
-  margin-right: auto; }
+
 
 @media screen and (max-width: 767px) {
   .post-prw-big .post-bot > .social-list:last-child, .post-full .post-bot > .social-list:last-child {
@@ -3174,3 +3190,134 @@ ul.category-list li.active a:after {
 .homepage-select.closed:not(.half-closed) .homepage-select-buy {
   right: auto;
   left: 54px; }
+@media screen and (max-width: 991px) {
+    .logo-holder{
+        margin-right: auto !important;
+    }
+    .minicart-holder, .minicart-holder-s {
+        margin-right: 0;
+        margin-left: auto;
+    }
+}
+.mr-1, .mx-1 {
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+}
+
+.bnslider-text-content.txt-left .bnslider-text-content-flex{
+    text-align: right;
+    -ms-flex-align: end;
+    -moz-align-items: flex-end;
+    align-items: flex-end;
+}
+.bnslider-text-content .bnslider-text-content-flex .bnslider-vert{
+    margin: 8% 5%;
+}
+@media (max-width: 1399px) and (min-width: 992px) {
+    .bnslider-with-tabs .bnslider-text-content .bnslider-text-content-flex .bnslider-vert {
+        margin-right: 20px;
+    }
+}
+.bnslider-with-tabs .slick-dots{
+    direction: rtl;
+}
+.parsley-errors-list{
+    padding-right: 0;
+}
+.mr-2, .mx-2 {
+    margin-left: 20px !important;
+    margin-right: 0 !important;
+}
+.icon-angle-left{
+    transform: rotate(180deg);
+    padding-right: 10px !important;
+    padding-left: 0 !important;
+}
+.pagination i{
+    transform: rotate(180deg);
+    display: inline-block;
+    padding: 0 !important;
+    position: relative;
+    top: 2px;
+}
+.cart-table-prd-price, .cart-table-prd-qty{
+    font-size: 14px;
+}
+.table > thead > tr > th{
+    font-size: 12px;
+}
+b.my-price{
+    margin-right: 0;
+    margin-left: 2px;
+}
+.category-list2 li a{
+    padding: 0px 5px 5px 15px;
+}
+.category-list2 a i {
+    position: absolute;
+    left: 0;
+    right: auto;
+    transform: rotate(180deg);
+    top: 7px;
+    font-size: 14px;
+}
+.category-list2 li a:after{
+    right: 0;
+    left: auto;
+}
+.html5gallery-car-mask-0{
+    direction: ltr !important;
+}
+.h2-style.h2-svg svg{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.recipes-list li {
+    padding-left: 0px;
+    padding-right: 27px;
+}
+.recipes-list li:before {
+    right: 10px;
+    left: auto;
+}
+.counter-list li {
+    padding-right: 25px;
+    padding-left: 0;
+}
+.counter-list li::before{
+    right: 5px;
+    left: auto;
+}
+.post-full .post-bot{
+    direction: ltr;
+}
+.menuShare input[type=checkbox] + label{
+    padding-right: 0 !important;
+}
+@media (min-width: 992px) {
+    .text-lg-right {
+        text-align: left !important;
+    }
+}
+b.my-price{
+    margin-left: 0;
+    margin-right: 2px;
+}
+.quota-list li{
+    padding-left: 0;
+    padding-right: 40px;
+}
+.quota-list li::before{
+    right: 10px;
+    left: auto;
+}
+.quota-list{
+    padding: 0;
+}
+.cart-table.cart-table--wishlist .delete-from-wishlist{
+    left: 0;
+    right: auto;
+}
+.cart-table.cart-table--wishlist .cart-table-addtocart{
+    text-align: left;
+}
