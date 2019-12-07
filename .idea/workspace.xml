@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddbe0e71-eb9c-4cf4-8b7f-b30041f679ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ltr/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/ltr/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rtl/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/rtl/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rtl/css/style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/rtl/css/style-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rtl/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rtl/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572820398463</updated>
       <workItem from="1572820399577" duration="24000" />
-      <workItem from="1575724183760" duration="3043000" />
+      <workItem from="1575724183760" duration="3564000" />
     </task>
     <servers />
   </component>
